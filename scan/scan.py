@@ -1,12 +1,17 @@
 #!/usr/bin/python -u
 
-# NOTE: This code is derived from what johnath posted on his blog in
-# 2009:
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# Explanatory note: This code is based on what johnath posted on 
+# his blog in 2009:
 # http://blog.johnath.com/2009/01/21/ssl-information-wants-to-be-free/
 # It's been extended a good deal, but some things, like the
-# implementation of the process queue, are still there. So thanks,
-# johnath - and please don't redistribute this code or derivations
-# without this notice and credit to him, thanks :)
+# implementation of the process queue, are still there. Thanks jonath!
+# Since jonath wrote the original code during his time at Mozilla,
+# we'll keep our scanner under the MPL, too.
+
 
 # scan and update hosts to get their certificates
 
